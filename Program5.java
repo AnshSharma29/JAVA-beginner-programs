@@ -1,6 +1,6 @@
-#WAP to create a class Student having fields name, rollno, marks in 5 subjects.
-#The class should contain 2 functions void accept and void display_result which 
-#displays the average marks.
+// WAP to create a class Student having fields name, rollno, marks in 5 subjects.
+// The class should contain 2 functions void accept and void display_result which 
+// displays the average marks.
 
 import java.util.*;
 
@@ -22,13 +22,14 @@ class Student{
 			System.out.print("Enter the marks in 5 subjects: ");
 			marks[i] = sc.nextInt();
 		}
+		sc.close();
 
 	}
 
-	public display_result(){
+	public int display_result(){
 
 		int sum=0;
-		for(i=0; i<marks.length; i++){
+		for(int i=0; i<marks.length; i++){
 
 			sum+=marks[i];
 		}
@@ -37,7 +38,7 @@ class Student{
 	}
 }
 
-public class Mymain{
+public class Program5{
 
 	public static void main(String args[]){
 
@@ -46,7 +47,7 @@ public class Mymain{
 		double input2 = Ap.display_result();
 		System.out.println("Name of Student: "+Ap.name);
 		System.out.println("Roll number of Student: "+Ap.rollno);
-		System.out.println("Average Marks of Student: "+Ap.input2);
+		System.out.println("Average Marks of Student: "+input2);
 
 	}
 }

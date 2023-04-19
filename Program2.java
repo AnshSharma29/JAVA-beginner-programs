@@ -1,4 +1,4 @@
-#WAP to check whether a given number exists in the array or not.
+// WAP to check whether a given number exists in the array or not.
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class Program2{
 		int temp=0;
 		for(int i=0;i<arr.length;i++)
 		{
-			if(int number == arr[i])
+			if(number == arr[i])
 			{
 				System.out.print("Number found. ");
 				temp=1;
@@ -34,8 +34,7 @@ public class Program2{
 			System.out.print("Number not found.");
 
 		}
-
-
+		sc.close();
 	}
 
 }

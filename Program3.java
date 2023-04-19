@@ -1,4 +1,4 @@
-#WAP to reverse an array.
+// WAP to reverse an array.
 
 import java.util.*;
 
@@ -25,6 +25,7 @@ public class Program3{
 
 			System.out.print(arr[i]);
 		}
+		sc.close();
 
 	}
 
