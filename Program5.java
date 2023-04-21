@@ -1,6 +1,6 @@
-#WAP to create a class Student having fields name, rollno, marks in 5 subjects.
-#The class should contain 2 functions void accept and void display_result which 
-#displays the average marks.
+//WAP to create a class Student having fields name, rollno, marks in 5 subjects.
+//The class should contain 2 functions void accept and void display_result which 
+//displays the average marks.
 
 import java.util.*;
 
@@ -37,7 +37,7 @@ class Student{
 	}
 }
 
-public class Mymain{
+public class Program5{
 
 	public static void main(String args[]){
 
