@@ -1,4 +1,4 @@
-#WAP to create a class circle & calculate its area and circumference.
+//WAP to create a class circle & calculate its area and circumference.
 
 import java.util.*;
 
@@ -15,7 +15,7 @@ class Circle{
 	return 3.14*r*r;
 	}
 
-class Mymain{
+class Program4{
 
 	public static void main(String args[]){
 
