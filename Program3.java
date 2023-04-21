@@ -1,4 +1,4 @@
-#WAP to reverse an array.
+//WAP to reverse an array.
 
 import java.util.*;
 
