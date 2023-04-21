@@ -1,7 +1,7 @@
-#WAP to accept 1D array, display the array elements and sum with only driver class and without making new class.
+//WAP to accept 1D array, display the array elements and sum with only driver class and without making new class.
 
 import java.util.*;
-public class Project1
+public class Program1
 {
 	public static void main(String []args)
 	{
