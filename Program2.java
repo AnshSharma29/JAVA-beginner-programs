@@ -1,5 +1,6 @@
 //WAP to check whether a given number exists in the array or not.
 
+
 import java.util.*;
 
 public class Program2{
