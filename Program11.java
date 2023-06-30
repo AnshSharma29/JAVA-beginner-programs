@@ -3,6 +3,8 @@
 //named box_new that has weight as an instance variable. Use super in the box_new 
 //class to initialize members of the base class
 
+
+
 package program11;
 
 class Box {
