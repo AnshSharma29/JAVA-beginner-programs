@@ -1,5 +1,8 @@
 //WAP that creates three threads which print no.s from 1 to 5, 6 to 10 and 11 to 15 respectively .Set the name & priority of the threads. 
 
+
+
+
 package com.mycompany.program10; 
 class MyThread01 extends Thread { 
 int n, m; 
