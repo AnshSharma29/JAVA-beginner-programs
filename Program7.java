@@ -1,4 +1,6 @@
 //Creating a thread using runnable interface.
+
+
 import java.util.*;
 class Mythread implements Runnable
 {
